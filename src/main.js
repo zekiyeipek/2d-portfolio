@@ -1,6 +1,8 @@
 import { dialogueData, scaleFactor } from "./constants";
 import { k } from "./kaboomCtx";
 import { displayDialogue, setCamScale } from "./utils";
+import utils from "./utils";
+import monogramFont from "./monogram.ttf";
 
 k.loadSprite("spritesheet", "./spritesheet.png", {
   sliceX: 39,
